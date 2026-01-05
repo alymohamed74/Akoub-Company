@@ -34,7 +34,7 @@ const LandingFooter: React.FC = () => {
              <h3 className="text-xl font-bold text-white mb-6 border-b border-gray-700 pb-2 inline-block">موقعنا</h3>
              <div className="rounded-2xl overflow-hidden h-60 shadow-2xl border border-gray-700">
                 <img 
-                    src="images/map.jpg" 
+                    src="/images/map.jpg" 
                     alt="Map" 
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" 
                 />

@@ -13,7 +13,7 @@ const Logo = () => {
       <div className="flex items-center space-x-3 rtl:space-x-reverse">
           <div className=" p-1 rounded-xl shadow-md overflow-hidden w-10 h-10 flex items-center justify-center">
               <img 
-                src="images/logo2.png" 
+                src="/images/logo2.png" 
                 alt="Akoub Logo" 
                 className="w-full h-full object-contain"
                 onError={(e) => {

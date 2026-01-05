@@ -52,12 +52,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigateToMarketplace }) =>
 
   const heroStyle = {
     backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                     url('images/cover-site.jpeg')`
+                     url('/images/cover-site.jpeg')`
   };
 
   const visionStyle = {
     backgroundImage: `linear-gradient(rgba(6, 78, 59, 0), rgba(6, 78, 59, 0.85)), 
-                     url('images/ourVision.jpeg')`
+                     url('/images/ourVision.jpeg')`
   };
 
   return (
